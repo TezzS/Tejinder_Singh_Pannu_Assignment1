@@ -1,0 +1,92 @@
+/* Style ME!!! */
+.home{
+    width:100%;
+    height: auto;
+    padding:10%;
+    display: block;
+    margin: auto;
+}
+.intro{
+ width: 100%;
+ height:auto;
+}
+.name{
+    color: #A4161A;
+}
+.intro_img{
+    border-radius: 30% 30% 50% 50% / 25% 25% 55% 55%;
+    width: 25%;
+    height: auto;
+    display: flex;
+    margin-right: 100px;
+}
+.about{
+    font-size: 62px;
+    text-align: center;
+    color:#A4161A;
+}
+.about-container{
+    display: flex;
+    align-items: center;
+}
+.know{
+    box-sizing: border-box;
+    color:white;
+    background-color: #A4161A;
+}
+.logopng{
+    margin-right:8px;
+    float:left;
+}
+.carousel{
+    width:80%;
+    height:auto;
+    display:block;
+    margin: auto;
+}
+.project-show{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.contact-name{
+    text-align: center;
+    font-size: 56px;
+    color:#A4161A;
+    font-style: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact{
+        margin-top:-10px;
+        padding-left:00px;
+        width:100%;
+        height:300px;
+        background-color :FFD966;
+}
+.contact-number{
+	 
+	 width: 80%;
+	 height:auto;
+	 border: 3px solid white;
+	 background-color:#A4161A;
+	 color:000;
+	 text-decoration:none;
+	 margin: auto;
+     margin-top: 30px;
+}
+.contact_icon{
+    background-color:#ffffff;
+    color: #A4161A;
+    float:left;
+    padding: 2%;
+    width:25%;
+    height:300px;
+    margin:49px;
+    border: 2px solid #000;
+    text-align:center;
+    font-size:24px;
+    font-family: Arial;
+}
+a{
+    text-decoration: none;
+}

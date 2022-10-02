@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <!--CSS Section-->
+  <link rel='stylesheet' href='/content/app.css' />
+  <link rel='stylesheet' href='/bootstrap/dist/css/bootstrap.min.css' />
+  <link rel='stylesheet' href='/@fortawesome/fontawesome-free/css/all.min.css' />
+</head>
+<body>
+  <!--Navigation Section-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand">PORTFOLIO<img class="logopng" src="/assests/images/red-logo.png" width="35px" height="35px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"></li>
+            <a class="nav-link <%= (title== 'Home' ? 'active' : '') %>" aria-current="page"  href="/home"><i class="fa-solid fa-house-chimney"></i> Home</a>
+          </li>
+          <li class="nav-item">
+           <a class="nav-link <%= (title== 'About Me' ? 'active' : '') %>" aria-current="page" href="/aboutme"><i class="fa-solid fa-question"></i> About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link <%= (title== 'Services' ? 'active' : '') %>" href="/services"><i class="fa-solid fa-plug"></i> Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link <%= (title== 'Projects' ? 'active' : '') %>" href="/projects"><i class="fa-brands fa-product-hunt"></i>Projects</a>
+          <li class="nav-item">
+            <a class="nav-link <%= (title== 'Contact Me' ? 'active' : '') %>" href="/contact"><i class="fa-regular fa-address-book"></i> Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Main section-->
+<div class="project-show">
+  <div class="card mb-3">
+    <img src="/assests/images/fys.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Mental health support website</h5>
+      <p class="card-text">I designed a website for individuals seeking mental help. The website had great use and accessibility.</p>
+      <a href="/assests/zip/TEJINDER-PANNU-Assignment3.zip" download class="btn btn-primary">Download</a>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Image slideshow</h5>
+      <p class="card-text">This cool looking image slider also functions automatically.</p>
+      <a href="/assests/zip/ASSIGNMENT6.zip" download class="btn btn-primary">Download</a>
+    </div>
+    <img src="/assests/images/image-show.jpg" class="card-img-bottom" alt="...">
+  </div>
+  <div class="card mb-3">
+    <img src="/assests/images/bug.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Bug game</h5>
+      <p class="card-text">One of my most exciting work. The bug game is fun and fully functional.</p>
+      <a href="/assests/zip/ASSIGNMENT 5.zip" download class="btn btn-primary">Download</a>
+    </div>
+  </div>
+  </div>
+</div>
+
+  <!--Footer Section-->
+  <nav class="navbar fixed-bottom navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand navbar-text" href="#">©Copyright 2022. Tezz.inc</a>
+    </div>
+  </nav>
+
+  <!--Script Section-->
+  <script src="/script/app.js"></script>
+  <script src="/jquery/dist/jquery.min.js"></script>
+  <script src='/bootstrap/dist/js/bootstrap.min.js'></script>
+</body>
+</html>
